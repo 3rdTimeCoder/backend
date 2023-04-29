@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "mongodb",
+    "api",
+    "backend",
+    "server"
+  ],
+  "author": "Nomah",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "helmet": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.2",
+    "react-router-dom": "^6.3.0",
+    "webpack": "^5.73.0"
+  }
+}
