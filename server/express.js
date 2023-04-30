@@ -39,7 +39,7 @@ app.use((err, req, res, next)=>{
 
 
 //Default Endpoint
-app.get('/', (req, res)=>{
+app.get('/testing', (req, res)=>{
     res.status(200).send(Template())
 })
 
